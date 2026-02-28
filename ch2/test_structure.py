@@ -4,7 +4,7 @@ import cards
 
 def test_to_dict():
 	# GIVEN a Card object with known contents
-	c1 = Card("something", "Dom", "todo", 123)
+	c1 = cards.Card("something", "Dom", "todo", 123)
 
 	# WHEN we call to_dict() on the object
 	c2 = c1.to_dict()
